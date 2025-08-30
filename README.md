@@ -54,7 +54,7 @@ LLaVA-Mini is a unified large multimodal model that can support the understandin
   conda activate llavamini
   pip install -e .
   pip install -e ".[train]"
-  pip install flash-attn --no-build-isolation
+  pip install flash-attn==2.3.4 --no-build-isolation
   ```
 
 ### Command Interaction
